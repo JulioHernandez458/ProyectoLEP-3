@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="408.0" prefWidth="643.0" VBox.vgrow="ALWAYS">
+      <children>
+            <ImageView fitHeight="99.0" fitWidth="90.0" layoutX="468.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Documents/JARS/CAB.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="65.0" layoutY="38.0" text="Colegio Andrés Bello" textFill="#f20b0b">
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnIngreso" layoutX="99.0" layoutY="178.0" mnemonicParsing="false" onAction="#ingreso" prefHeight="30.0" prefWidth="97.0" text="Ingreso" textFill="#0943e1f7">
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMatricula" layoutX="221.0" layoutY="178.0" mnemonicParsing="false" onAction="#matricula" prefHeight="30.0" prefWidth="97.0" text="Matricula" textFill="#0943e1f7">
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnDocente" layoutX="221.0" layoutY="236.0" mnemonicParsing="false" onAction="#docente" prefHeight="30.0" prefWidth="97.0" text="Docentes" textFill="#0943e1f7">
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnListado" layoutX="99.0" layoutY="236.0" mnemonicParsing="false" onAction="#listado" prefHeight="30.0" prefWidth="97.0" text="Listado" textFill="#0943e1f7">
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnSalir" layoutX="482.0" layoutY="348.0" mnemonicParsing="false" onAction="#salir" prefHeight="30.0" prefWidth="104.0" text="Salir" textFill="#0943e1f7">
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="13.0" />
+               </font>
+            </Button>
+      </children>
+         <effect>
+            <DropShadow />
+         </effect>
+    </AnchorPane>
+  </children>
+</VBox>

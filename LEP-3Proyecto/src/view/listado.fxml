@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="408.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Listado">
+   <children>
+      <ImageView fitHeight="99.0" fitWidth="90.0" layoutX="468.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Documents/JARS/CAB.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="65.0" layoutY="38.0" text="Listado de alumnos" textFill="#f20b0b">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSalir" layoutX="482.0" layoutY="348.0" mnemonicParsing="false" onAction="#salir" prefHeight="30.0" prefWidth="104.0" text="Salir" textFill="#0943e1f7">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="check7" layoutX="292.0" layoutY="170.0" mnemonicParsing="false" text="7° grado" />
+      <CheckBox fx:id="check1" layoutX="56.0" layoutY="170.0" mnemonicParsing="false" text="1° grado" />
+      <CheckBox fx:id="check2" layoutX="56.0" layoutY="212.0" mnemonicParsing="false" text="2° grado" />
+      <CheckBox fx:id="check3" layoutX="56.0" layoutY="248.0" mnemonicParsing="false" text="3° grado" />
+      <CheckBox fx:id="check4" layoutX="183.0" layoutY="170.0" mnemonicParsing="false" text="4° grado" />
+      <CheckBox fx:id="check5" layoutX="183.0" layoutY="212.0" mnemonicParsing="false" text="5° grado" />
+      <CheckBox fx:id="check6" layoutX="183.0" layoutY="248.0" mnemonicParsing="false" text="6° grado" />
+      <CheckBox fx:id="check8" layoutX="292.0" layoutY="212.0" mnemonicParsing="false" text="8° grado" />
+      <CheckBox fx:id="check9" layoutX="292.0" layoutY="248.0" mnemonicParsing="false" text="9° grado" />
+      <Button fx:id="btnAceptarL" layoutX="345.0" layoutY="348.0" mnemonicParsing="false" onAction="#aceptarlistado" prefHeight="30.0" prefWidth="104.0" text="Aceptar" textFill="#0943e1f7">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Button>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>

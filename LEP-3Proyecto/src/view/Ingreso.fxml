@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="566.0" prefWidth="779.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Ingreso">
+   <children>
+      <ImageView fitHeight="99.0" fitWidth="90.0" layoutX="468.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Documents/JARS/CAB.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="65.0" layoutY="38.0" text="Ingreso" textFill="#f20b0b" underline="true">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSaliri" layoutX="619.0" layoutY="514.0" mnemonicParsing="false" onAction="#salirI" prefHeight="30.0" prefWidth="104.0" text="Salir" textFill="#0943e1f7">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="51.0" layoutY="125.0" text="Nombres :">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNombre" layoutX="135.0" layoutY="123.0" prefHeight="25.0" prefWidth="202.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtApellido" layoutX="135.0" layoutY="170.0" prefHeight="25.0" prefWidth="202.0" />
+      <Label layoutX="51.0" layoutY="173.0" text="Apellidos :">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="217.0" text="Edad :">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtEdad" layoutX="135.0" layoutY="214.0" prefHeight="25.0" prefWidth="58.0" />
+      <Label layoutX="204.0" layoutY="217.0" text="años">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtDireccion" layoutX="135.0" layoutY="258.0" prefHeight="25.0" prefWidth="261.0" />
+      <Label layoutX="49.0" layoutY="261.0" text="Dirección :">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="302.0" text="Teléfono :">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtTelefono" layoutX="135.0" layoutY="300.0" prefHeight="25.0" prefWidth="162.0" />
+      <Label layoutX="21.0" layoutY="345.0" text="Nombre del padre :">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPadre" layoutX="170.0" layoutY="343.0" prefHeight="25.0" prefWidth="261.0" />
+      <Label layoutX="21.0" layoutY="386.0" text="Nombre de la madre :">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtMadre" layoutX="183.0" layoutY="384.0" prefHeight="25.0" prefWidth="261.0" />
+      <TextField fx:id="txtCarnet" layoutX="535.0" layoutY="215.0" prefHeight="25.0" prefWidth="104.0" />
+      <Label layoutX="500.0" layoutY="183.0" text="Carnet :">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAceptarIngreso" layoutX="476.0" layoutY="514.0" mnemonicParsing="false" onAction="#aceptaringreso" prefHeight="30.0" prefWidth="104.0" text="Aceptar" textFill="#0943e1f7">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="20.0" layoutY="422.0" text="Nombre del encargado :">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtEncargado" layoutX="207.0" layoutY="420.0" prefHeight="25.0" prefWidth="261.0" />
+      <Label layoutX="24.0" layoutY="464.0" text="Parentesco :">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtParentesco" layoutX="125.0" layoutY="461.0" prefHeight="25.0" prefWidth="261.0" />
+      <Label layoutX="508.0" layoutY="251.0" text="*Ingresar el carnet">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="520.0" layoutY="273.0" text="del alumno para">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="520.0" layoutY="292.0" text="modificar datos o eliminarlos.">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnEliminar" layoutX="659.0" layoutY="212.0" mnemonicParsing="false" onAction="#eliminaralumno" prefHeight="30.0" prefWidth="84.0" text="Eliminar" textFill="#0943e1f7">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="526.0" layoutY="312.0" text="* Si ya existe el alumno">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnModificar" layoutX="308.0" layoutY="514.0" mnemonicParsing="false" onAction="#modificarDatos" prefHeight="30.0" prefWidth="134.0" text="Modificar Datos" textFill="#0943e1f7">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Button>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>

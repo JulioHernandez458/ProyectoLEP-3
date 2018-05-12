@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="444.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Matricula">
+   <children>
+      <ImageView fitHeight="99.0" fitWidth="90.0" layoutX="468.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Documents/JARS/CAB.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="65.0" layoutY="38.0" text="Matricula" textFill="#f20b0b" underline="true">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSalir" layoutX="481.0" layoutY="372.0" mnemonicParsing="false" onAction="#salirMatricula" prefHeight="30.0" prefWidth="104.0" text="Salir" textFill="#0943e1f7">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtCarnet" layoutX="135.0" layoutY="170.0" prefHeight="25.0" prefWidth="97.0" />
+      <Label layoutX="51.0" layoutY="173.0" text="Carnet :">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAceptarMatricula" layoutX="335.0" layoutY="372.0" mnemonicParsing="false" onAction="#aceptarmatricula" prefHeight="30.0" prefWidth="104.0" text="Aceptar" textFill="#0943e1f7">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="64.0" layoutY="231.0" text="Grado :">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="13.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmbGrado" layoutX="139.0" layoutY="229.0" onAction="#comboGrado" prefHeight="25.0" prefWidth="90.0" />
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>
